@@ -27,7 +27,7 @@ retained.shape
 
 """**Average numbers for all columns**"""
 
-df.groupby('left').mean(numeric_only=True)
+df.groupby('left').mean(numeric_only=false)
 
 """From above table we can draw following conclusions,
 <ol>
