@@ -27,7 +27,10 @@ retained.shape
 
 """**Average numbers for all columns**"""
 
-df.groupby('left').mean(numeric_only=true)
+numeric_df = df.select_dtypes(include=['number'])
+numeric_df['left'] = df['left']
+
+numeric_df.groupby('left').mean()
 
 """From above table we can draw following conclusions,
 <ol>
