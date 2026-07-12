@@ -172,6 +172,18 @@ salary = st.sidebar.selectbox(
 
 predict = st.sidebar.button("🔍 Predict")
 
+st.sidebar.title("My Portfolio")
+
+st.sidebar.markdown("""
+### 👋 About Me
+
+**Name:** Prashant Gupta
+
+🔗 **LinkedIn:** [Click Here](https://www.linkedin.com/in/prashant-gupta-012320389?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+
+💻 **GitHub:** [Click Here](https://github.com/PrashantGupta8281/AI-ML_Summer_Internship)
+""")
+
 # ==========================================================
 # MAIN CONTENT
 # ==========================================================
